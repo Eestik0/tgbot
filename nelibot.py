@@ -4,7 +4,7 @@ import pyjokes
 import random
 import re
 
-bot = telebot.TeleBot('8490108100:AAFaxunqv3HhlxcYUbgNsIWRczj-BDwUMds')
+bot = telebot.TeleBot('hhhhh')
 
 # настрій
 moods = ["😇 ангел", "🙂 спокійна", "😏 грайлива", "😠 зла", "😈 сатана"]
@@ -160,4 +160,5 @@ def talk(message):
         return
 
 bot.infinity_polling()
+
 
