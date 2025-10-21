@@ -8,8 +8,7 @@ import os
 from openai import OpenAI
 
 bot = telebot.TeleBot(os.environ.get('TELEGRAM_BOT_TOKEN'))
-# the newest OpenAI model is "gpt-5" which was released August 7, 2025.
-# do not change this unless explicitly requested by the user
+
 openai_client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
 
 # Для відстеження режиму виправлення помилок
